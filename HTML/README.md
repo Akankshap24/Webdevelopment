@@ -109,3 +109,65 @@ Example:
 ```html
 <img src="image.jpg" alt="Image description">
 ```
+### c. Raw Text Elements
+- These elements are presented without a tag.<br>
+		eg:: Temparature20C 45000/-<br>
+		     Temparture&deg;C &#8377;45000/-
+		     
+Example:
+```html
+&copy; ©
+&#8377;
+&deg;
+```
+
+### d. RC Data Elements
+- RC Data Elements, or Rich Text Content Elements, do not allow any other elements within their context.
+
+Example:
+```html
+<textarea>
+    Hello
+    <b>pwian's</b>
+</textarea 
+```
+
+### e. Foreign Elements
+- Foreign elements are those that are not natively understood by every browser.
+- You need to import a library that enables browser compatibility with these elements.
+
+Example:
+- SVG
+- MathML
+- Canvas
+
+
+## HTML Page Structure
+
+- Every HTML file must have static extensions called ".html or .htm"
+- Every HTML page starts with documentation declaration from HTML5 version.<br>
+ 			<!doctype html><br>
+	It is a indication to the browser engine that i am using latest features of HTML, if we don't specify the doctype then the
+	browser engine understands the HTML has "HTML4" version.
+
+- Every HTML page must have a documentation scope, It specifies the start and end of the document in browser.
+#### eg: 
+      <html> 
+		document scope
+		</html>
+
+    eg#1.
+	<!DOCTYPE html>
+	<html>
+        	document-1
+	</html>
+	<html>
+        	document-2
+	</html>
+	     Note: If some changes needs to be done in document-1, then it creates a problem because browser does the below things
+	<!DOCTYPE html>
+	<html>
+        	document-1 document-2
+	</html>
+   
+
