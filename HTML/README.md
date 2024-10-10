@@ -85,3 +85,27 @@ Markup
 
 - HTML present content on browser using elements arranged in hierarchial order called "DOM".
 - There are 100's of elements.
+
+### HTML Elements are classified into 5 categories
+### a. Normal elements
+- Elements which return a presentation directly on call back [without any additional attributes].
+- Elements in HTML are built by using tags.
+- Normal Elements require a start tag and end tag.
+- Normal Elements will start returning presentation but can’t stop implicitly.
+- They require explicit end tag.
+- Usually require start and end tags.
+	
+- Example:
+```HTML
+<b>HELLO</b>
+```
+### b. Void Elements
+- Void elements refer to elements that don’t return any presentation directly upon being rendered.
+- The term "void" indicates that they have no return type.
+- They can return specific content and stop implicitly.
+- Void elements do not require an "end tag."
+
+Example:
+```html
+<img src="image.jpg" alt="Image description">
+```
