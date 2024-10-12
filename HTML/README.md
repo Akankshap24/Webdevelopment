@@ -87,12 +87,13 @@ Markup
 - There are 100's of elements.
 
 ### HTML Elements are classified into 5 categories
-### a. Normal elements
-- Elements which return a presentation directly on call back [without any additional attributes].
-- Elements in HTML are built by using tags.
-- Normal Elements require a start tag and end tag.
-- Normal Elements will start returning presentation but can’t stop implicitly.
-- They require explicit end tag.
+
+### a. Normal Elements
+- Elements which return a presentation directly on callback [without any additional attributes].
+- Elements in HTML are built using tags.
+- Normal elements require a start tag and end tag.
+- Normal elements will start returning presentation but can’t stop implicitly.
+- They require an explicit end tag.
 - Usually require start and end tags.
 	
 - Example:
@@ -171,3 +172,41 @@ Example:
 	</html>
    
 
+#### Every document scope must have "lang" attribute.It is used to define language for the web page content.
+	<html lang="en-IN">
+	<html lang="en-US">
+		eg:: amazon.com (USA) , amazon.in(IND)
+
+#### Every document scope has 2 sections at high level.
+	<!DOCTYPE html>
+	<html>
+        	<head>
+
+        	</head>
+        	<body>
+                
+        	</body>
+	</html>
+	
+### HeadSection 
+- It Comprises of the Content loaded into browser memory and later delivered to browser UI, so that we can reuse the content across multiple requests.
+- It typically contains the following components
+			a.link	 b.meta  c.style  d.scripts e.title
+
+### title
+-  It is used for browser and SEO.[Search Engine Optmisation]<br>
+   Note: ROBOTS [Google BOT, WebCrawlers, WebSpiders]<br>
+- Broswer uses title tag to display in "titlebar" and in "favourites".[While bookmarking the webpage]
+- SEO uses title to display in search results.
+
+### link  
+- It is used to link any external document like css file or shortcut icon.
+#### Note: favicon.ico -> size (16px to 32px), type(.ico)
+
+					index.html
+		<html lang="en-US">
+			<head>
+		 		<title>FashionStore</title>
+		 		<link rel= 'shortcut icon' href='public/images/favicon.ico'/>
+			</head>
+		</html>
