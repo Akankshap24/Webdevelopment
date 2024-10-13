@@ -210,3 +210,38 @@ Example:
 		 		<link rel= 'shortcut icon' href='public/images/favicon.ico'/>
 			</head>
 		</html>
+
+
+## Meta in head section
+ - It is required for webpage to make it responsive and SEO Friendly.
+ - The term meta refers to MetaData.
+ - Meta data comprises of information about our webpage.
+ - A responsive webpage can adjust according to device.
+ - It can fit content to device screen[ipad,browser,phone,etc...]
+ - To Test the responsivness pages, you can download and install
+	     "chrome mobile simulator"
+
+#### Add the following content in the head section:
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+```
+- **a. viewport**: It refers to the screen size and its dimensions.
+- **b. width**: It refers to the current page content width.
+- **c. initial-scale**: It refers to the zoom level (1 = 100%).
+
+#### eg#1.
+``` html
+ <!DOCTYPE html>
+<html>
+    <head >
+        <meta name="viewport" content="width=device-width, initial-scale=200">
+	<title>
+		Fashion Store
+	</title>
+
+    </head>        
+        <body>
+            Many of our Services allow. 
+    </head>
+</html>
+```
