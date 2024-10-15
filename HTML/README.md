@@ -245,3 +245,41 @@ Example:
     </head>
 </html>
 ```
+
+
+2. ``` html
+       <meta http-equiv="refresh" content="5">
+   ```
+	http-equiv : refers to request handler, which can process your request for page by refreshing every few seconds<br>
+	content    : it defines the no of seconds
+
+- Meta provides following attributes to make our page SEO Friendly
+	```html
+	<meta name = "keywords"  content = "some keywords used for finding our site"/>
+	<meta name="description" content = "something abour our result"/>
+	<meta charset="UTF-8">
+	```
+	a. UTF-8 :: Unicode Translation Format(applicable for english alphabets)<br>
+	b. UTF-16, UTF-32......
+
+#### eg#1.					index.html
+```html
+<html lang="en-IN">
+    <head >
+        <meta name="viewport" content="width=device-width, initial-scale=200">
+        <meta http-equv="refresh" content="5">
+        <meta name ="keywords" content="kids,Mens,Womens fashion best offers">
+        <meta name = "description" content="online fashion store with best offers ">
+    </head>
+</html>
+```
+
+4. style : It is used to embed css into webpage
+    ```html
+		<style type ='text/css'>
+		</style>
+    ```
+5.  ```html
+    <script type = 'text/javascript'>
+    </script>
+	```
