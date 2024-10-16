@@ -283,3 +283,14 @@ Example:
     <script type = 'text/javascript'>
     </script>
 	```
+
+## HTML BODY SECTION 
+- It comprises of the content which is rendred directly in browser.
+- It is defined with ``<body>`` token and it contains some important attributes.
+### Attributes
+**bgcolor** :It sets background color for the page.<br>
+**text**    : It sets text color 
+
+
+
+
