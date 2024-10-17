@@ -291,6 +291,11 @@ Example:
 **bgcolor** :It sets background color for the page.<br>
 **text**    : It sets text color 
 
-
-
-
+=>HTML colors are defined by using 3 techniques <br>
+a.**Color name**			
+#### eg:
+```html
+	<body bgcolor="red" text="white">
+	<p>.....</p>
+	</body>
+```
