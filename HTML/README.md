@@ -299,3 +299,26 @@ a.**Color name**
 	<p>.....</p>
 	</body>
 ```
+ 
+b. **Color shade name**
+   - HTML also supports hundreds of color shade names
+     - Darkcyan
+     - Lightcyan
+     - Lightgreen
+
+c. **Hexadecimal Code**
+   - Hexadecimal colors are basically “RGB” colors:
+     - R-Red, G-Green, B-Blue
+     - Hexadecimal number system is a 16-base system, using 16 different values ranging from “0 to F.”
+     - Hexadecimal colors can be defined in 3 or 6 characters, followed by a hash “#”:
+       - **3 Chars Code:**
+         - `#RGB`
+       - **6 Chars Code:**
+         - `#RRGGBB`
+     - Red, Green, and Blue values range from “0 to F”:
+       - Hexadecimal values: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f
+         - [0 is minimum, f is maximum]
+         - First place is for **Red**
+         - Second place is for **Green**
+         - Third place is for **Blue**
+
