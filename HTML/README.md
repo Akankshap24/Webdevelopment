@@ -322,3 +322,13 @@ c. **Hexadecimal Code**
          - Second place is for **Green**
          - Third place is for **Blue**
 
+#### Example: Hexadecimal Color Codes
+
+| Hex Code  | Color  | Short Code |
+|-----------|--------|------------|
+| #FF0000   | Red    | #F00       |
+| #00FF00   | Green  | #0F0       |
+| #0000FF   | Blue   | #00F       |
+| #FFFF00   | Yellow | #FF0       |
+| #000000   | Black  | #000       |
+| #FFFFFF   | White  | #FFF       |
