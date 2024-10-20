@@ -332,3 +332,11 @@ c. **Hexadecimal Code**
 | #FFFF00   | Yellow | #FF0       |
 | #000000   | Black  | #000       |
 | #FFFFFF   | White  | #FFF       |
+
+### 3. Background
+
+It sets a background image to the body section.
+
+**Syntax:**
+```html
+<body background="" />
