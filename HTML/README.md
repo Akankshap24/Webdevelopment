@@ -340,3 +340,8 @@ It sets a background image to the body section.
 **Syntax:**
 ```html
 <body background="" />
+```
+> [!NOTE]
+> we can control images only through css attributes.
+  These attributes are defined in ``style`` manner.
+     
