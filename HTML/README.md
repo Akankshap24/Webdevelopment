@@ -344,4 +344,13 @@ It sets a background image to the body section.
 > [!NOTE]
 > we can control images only through css attributes.
   These attributes are defined in ``style`` manner.
+
+CSS attributes for background are:
+
+| Attribute               | Values                                     |
+|-------------------------|--------------------------------------------|
+| background-repeat      | repeat \| no-repeat \| repeat-x \| repeat-y |
+| background-size        | contain \| cover \| auto \| width & height in pixels |
+| background-position    | top \| center \| right \| left    |
+| background-attachment  | fixed \| scroll                       |
      
