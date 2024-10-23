@@ -353,4 +353,6 @@ CSS attributes for background are:
 | background-size        | contain \| cover \| auto \| width & height in pixels |
 | background-position    | top \| center \| right \| left    |
 | background-attachment  | fixed \| scroll                       |
-     
+    
+- **contain**: Resize the background image to ensure it is fully visible, scaling it to fit inside the container without cropping.
+- **cover**: Resize the background image to cover the entire container, even if part of the image is cropped to maintain aspect ratio.
