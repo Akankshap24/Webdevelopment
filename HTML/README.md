@@ -356,3 +356,22 @@ CSS attributes for background are:
     
 - **contain**: Resize the background image to ensure it is fully visible, scaling it to fit inside the container without cropping.
 - **cover**: Resize the background image to cover the entire container, even if part of the image is cropped to maintain aspect ratio.
+
+Example:
+
+```html
+<style>
+     body {
+         background-repeat: no-repeat;
+         background-size: 100%;
+         background-position: center center;
+         background-attachment: fixed;  
+     }
+</style>
+
+<body background="public/images/background-banner.jpg">
+    ........
+    ........
+    ........
+</body>
+```
