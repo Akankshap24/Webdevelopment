@@ -375,3 +375,16 @@ Example:
     ........
 </body>
 ```
+### 4. align
+It is used to align the body content to the left, right, center, or justify.
+
+   **Syntax**: 
+   ```html
+   <body align="left|right|center|justify">
+   </body>
+   ```
+   
+   - **left**: It sets the text left-aligned.<br>
+   - **right**: It sets the text right-aligned.<br>
+   - **center**: It sets the text center-aligned.<br>
+   - **justify**: It stretches the text of a paragraph to set the width of all lines equal.
