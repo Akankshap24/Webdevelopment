@@ -388,3 +388,16 @@ It is used to align the body content to the left, right, center, or justify.
 - **right**: It sets the text right-aligned.<br>
 - **center**: It sets the text center-aligned.<br>
 - **justify**: It stretches the text of a paragraph to set the width of all lines equal.
+
+### 5. margin
+ Sets space between the content and the page edges.
+- **left margin**: Sets the space between the content and the left edge of the page.
+- **right margin**: Sets the space between the content and the right edge of the page.
+- **bottom margin**: Sets the space between the content and the bottom edge of the page.
+- **top margin**: Sets the space between the content and the top edge of the page.
+
+   **Example**:
+   ```html
+   <body align="justify" topmargin="25" leftmargin="50" bottommargin="50" rightmargin="50">
+   </body>
+   ```
