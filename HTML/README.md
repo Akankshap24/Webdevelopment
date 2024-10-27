@@ -401,3 +401,14 @@ It is used to align the body content to the left, right, center, or justify.
    <body align="justify" topmargin="25" leftmargin="50" bottommargin="50" rightmargin="50">
    </body>
    ```
+  ### 6. 
+  **Vlink** : It sets colour for visited links in a page  
+  **alink** : It sets colour for active  links in  a page  
+  ```html
+  <body vlink="grey" alink="red">
+            <a href="http://www.flipkart.com">FLIPKART</a> 
+            <a href="http://www.amazon.in">AMAZON</a>   
+            <a href="http://www.myntra.com">MYNTRA</a>  
+   </body>  
+   ```
+
