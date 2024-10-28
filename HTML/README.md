@@ -411,4 +411,10 @@ It is used to align the body content to the left, right, center, or justify.
             <a href="http://www.myntra.com">MYNTRA</a>  
    </body>  
    ```
+## Semantics in Body Section  
+- An element used for a specific purpose.  
+- HTML has more than 100 of semantics according to MDN.  
+- WHATWG(HTML), W3C(WEB), Javascript(ECMA) for these 3 people documentation is prepared by MDN (Mozilla Development Network).  
+- HTML5 introduced semantics for body section to make it more SEO [Search Engine Optimization] friendly.  
+- Old websites are not SEO friendly, but by using HTML5 we make webpages SEO friendly.
 
