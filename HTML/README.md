@@ -418,3 +418,12 @@ It is used to align the body content to the left, right, center, or justify.
 - HTML5 introduced semantics for body section to make it more SEO [Search Engine Optimization] friendly.  
 - Old websites are not SEO friendly, but by using HTML5 we make webpages SEO friendly.
 
+## Body section semantics for Layout Design  
+- HTML4 uses table element for designing a "Layout".  
+- Table is not SEO Friendly  
+- Table leads to a situation known as "Kiss-Of-Death". [refer image for this problem]  
+- HTML5 introduced new "Semantics" for designing a Layout.  
+- The new semantics will make a page SEO Friendly.  
+- The new layout semantics are  
+    `<aside>` `<article>`  `<header>`  `<footer>` `<div>` `<span>` `<figure>` `<figcaption>`  `<dialog>`  `<main>`  `<section>`  `<div>`  `<span>`  
+
