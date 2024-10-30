@@ -427,3 +427,54 @@ It is used to align the body content to the left, right, center, or justify.
 - The new layout semantics are  
     `<aside>` `<article>`  `<header>`  `<footer>` `<div>` `<span>` `<figure>` `<figcaption>`  `<dialog>`  `<main>`  `<section>`  `<div>`  `<span>`  
 
+ **div and span tag**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        div {
+            border: 2px solid black;
+            margin: 5px;
+            padding: 5px;
+        }
+        span {
+            background-color: rgb(0, 174, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        Web Development
+        <div>
+            FrontEnd
+            <div>
+                HTML
+                It is a <span>markup</span> language
+            </div>
+            <div>
+                CSS
+                It is a styling language
+            </div>
+        </div>
+
+        <div>
+            BackEnd
+            <div>
+                MongoDB
+                It is a database
+            </div>
+            <div>
+               Node.js
+               It is a server-side scripting language
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
+```
