@@ -478,3 +478,6 @@ It is used to align the body content to the left, right, center, or justify.
 </body>
 </html>
 ```
+
+[!NOTE] The `<span>` tag is much like the `<div>` element,  
+      but `<div>` is a block-level element and `<span>` is an inline element.
