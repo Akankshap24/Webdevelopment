@@ -497,4 +497,12 @@ It is used to align the body content to the left, right, center, or justify.
 
 ***all four paddings are 25px***
 
+2. `<header>`
+   1. It is used to configure the header section of a webpage.  
+   2. Typically, every header of a webpage comprises:
+      - a. BrandName  
+      - b. BrandIcon  
+      - c. NavBar  
+      - d. Shortcut Buttons, etc.
+
 
