@@ -489,3 +489,12 @@ It is used to align the body content to the left, right, center, or justify.
    2. padding-right
    3. padding-bottom
    4. padding-left
+
+[!Note] padding : top left right bottom
+
+#### eg#1
+    padding: 25px;
+
+***all four paddings are 25px***
+
+
