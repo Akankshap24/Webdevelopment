@@ -490,7 +490,7 @@ It is used to align the body content to the left, right, center, or justify.
    3. padding-bottom
    4. padding-left
 
-[!Note] padding : top left right bottom
+>[!Note] padding : top left right bottom
 
 #### eg#1
     padding: 25px;
@@ -550,12 +550,13 @@ To work with any of the fonts we use these attributes in CSS:
 - **border-radius** - It sets rounded container.  
 - **text-align**- It aligns text left, center, right, or justify. 
 
-[!Note] We can't change height and width of any `<span>` element using CSS.  
+> [!Note] We can't change height and width of any `<span>` element using CSS.  
 To set width and height of a `<span>` we need to go for `display: inline-block`.
 
 `<nav>` It is used to configure the navigation area in a webpage. It comprises of nav items or shortcut buttons.
 
 `<article>` It is a container element that keeps the highlights of webpage content. It is typically the offers, announcement, news, updates, etc.
 
+`<footer>`  It defines the content to display at the bottom margin of a web page.   Typically, the footer comprises copyrights, contact details, social bars, services, etc.
 
 
