@@ -505,4 +505,12 @@ It is used to align the body content to the left, right, center, or justify.
       - c. NavBar  
       - d. Shortcut Buttons, etc.
 
+```html
+<header>
+	content of the header
+</header>
+```
+It is a container that is used to display a top margin on the page.
+Typically header is a webpage comprises of brand- name,logo,shortcut buttons,navigation etc...
+
 
