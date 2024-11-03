@@ -550,7 +550,8 @@ To work with any of the fonts we use these attributes in CSS:
 - **border-radius** - It sets rounded container.  
 - **text-align**- It aligns text left, center, right, or justify. 
 
-> [!Note] We can't change height and width of any `<span>` element using CSS.  
+> [!NOTE] 
+We can't change height and width of any `<span>` element using CSS.  
 To set width and height of a `<span>` we need to go for `display: inline-block`.
 
 `<nav>` It is used to configure the navigation area in a webpage. It comprises of nav items or shortcut buttons.
