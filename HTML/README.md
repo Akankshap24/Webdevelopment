@@ -513,4 +513,49 @@ It is used to align the body content to the left, right, center, or justify.
 It is a container that is used to display a top margin on the page.
 Typically header is a webpage comprises of brand- name,logo,shortcut buttons,navigation etc...
 
+## CSS style attributes  
+To work with any of the fonts we use these attributes in CSS:
+
+**font-size**: It changes the character size. [unit: px]  
+**font-weight**: It changes in bold.  
+**font-style**: It changes in italics.  
+**font-family**: It sets text style by using font-family. [Arial, Times New Roman,....]
+
+- **margin**: 
+   - margin-left: 
+   - margin-right: 
+   - margin-top: 
+   - margin-bottom: 
+
+- **display**: It can display the elements in the container with various styles:
+   -  none
+   -  block : just like `<p>`
+   -  inline : just like `<span>`
+   -  inline-block
+   -  grid : Displays an element as a block-level grid container
+   -  flex : Displays an element as a block-level flex container
+
+- **justify-content**: It can justify the contents in the container with the following values:
+   - `space-between`: Items will have space between them
+   - `space-around`: Items will have space before, between, and after them
+   - `space-evenly`: Items will have equal space around them
+
+- **padding**: It sets space around contents in all directions 
+   - padding-bottom
+   - padding-top
+   - padding-right
+   - padding-left
+
+- **border** - It sets border style, side, and color for the container.  
+- **border-radius** - It sets rounded container.  
+- **text-align**- It aligns text left, center, right, or justify. 
+
+[!Note] We can't change height and width of any `<span>` element using CSS.  
+To set width and height of a `<span>` we need to go for `display: inline-block`.
+
+`<nav>` It is used to configure the navigation area in a webpage. It comprises of nav items or shortcut buttons.
+
+`<article>` It is a container element that keeps the highlights of webpage content. It is typically the offers, announcement, news, updates, etc.
+
+
 
