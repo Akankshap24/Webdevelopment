@@ -479,8 +479,8 @@ It is used to align the body content to the left, right, center, or justify.
 </html>
 ```
 
-[!NOTE] The `<span>` tag is much like the `<div>` element,  
-      but `<div>` is a block-level element and `<span>` is an inline element.
+>[!NOTE] 
+The `<span>` tag is much like the `<div>` element,but `<div>` is a block-level element and `<span>` is an inline element.
 
 - **Padding** is used to create space around an element's content, inside of any defined borders.  
    CSS has properties for specifying the padding for each side of an element:
