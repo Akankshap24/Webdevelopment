@@ -559,6 +559,14 @@ To set width and height of a `<span>` we need to go for `display: inline-block`.
 
 `<article>` It is a container element that keeps the highlights of webpage content. It is typically the offers, announcement, news, updates, etc.
 
-`<footer>`  It defines the content to display at the bottom margin of a web page.   Typically, the footer comprises copyrights, contact details, social bars, services, etc.
+`<footer>`  It defines the content to display at the bottom margin of a web page.Typically, the footer comprises copyrights, contact details, social bars, services, etc.
 
+`<aside>`   It defines the content which is not relative to the current context or navigates the user to another website.It contains the content outside the current context.
+  
+**Syntax**:
+```html
+<aside>
+    social media ads,....
+</aside>
+```
 
