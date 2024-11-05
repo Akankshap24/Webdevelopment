@@ -569,4 +569,12 @@ To set width and height of a `<span>` we need to go for `display: inline-block`.
     social media ads,....
 </aside>
 ```
+> [!Note]
+> - `display: flex` -> Keeps flexible columns, which change according to the width of the screen.  
+> - `display: grid` -> Keeps a fixed number of columns.  
+> - Default screen width is 1200px, so the maximum number of columns on a page is 12.  
+> - We can split the grid into columns using `grid-template-columns`.  
+> - Each column's size can be set using pixels or fractions.  
+>   - **Example**: `200px 5fr`  
+> - Pixels are fixed, and fractions are responsive (will adjust according to the width of the screen).
 
