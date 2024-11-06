@@ -578,3 +578,10 @@ To set width and height of a `<span>` we need to go for `display: inline-block`.
 >   - **Example**: `200px 5fr`  
 > - Pixels are fixed, and fractions are responsive (will adjust according to the width of the screen).
 
+**Syntax**:
+```css
+footer {
+    display: grid;
+    grid-template-columns: 240px;
+}
+```
