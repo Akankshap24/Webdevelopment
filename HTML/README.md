@@ -585,3 +585,9 @@ footer {
     grid-template-columns: 240px;
 }
 ```
+> [!Note]
+ Selecting child and sibling in CSS  
+`parent child { ... }`  ===> Child selector  
+`ElementA + ElementB { ... }`  ===> Adjacent sibling  
+`ElementA ~ ElementB { ... }`  ===> All elements after a specific element  
+
