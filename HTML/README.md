@@ -587,7 +587,7 @@ footer {
 ```
 > [!Note]
  Selecting child and sibling in CSS  
-`parent child { ... }`  ===> Child selector  
-`ElementA + ElementB { ... }`  ===> Adjacent sibling  
-`ElementA ~ ElementB { ... }`  ===> All elements after a specific element  
+`parent child { ... }`  -> Child selector  
+`ElementA + ElementB { ... }`  -> Adjacent sibling  
+`ElementA ~ ElementB { ... }`  -> All elements after a specific element  
 
