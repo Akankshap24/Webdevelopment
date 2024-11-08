@@ -591,3 +591,10 @@ footer {
 `ElementA + ElementB { ... }`  -> Adjacent sibling  
 `ElementA ~ ElementB { ... }`  -> All elements after a specific element  
 
+### Designing a section area and main area  
+**Section**: It defines the content between the header and footer area. Typically, all website content is kept in the section.<br>
+  **Syntax**:
+  ```html
+  <section>
+      // content
+  </section>
