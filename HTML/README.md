@@ -598,3 +598,11 @@ footer {
   <section>
       // content
   </section>
+   ```
+**main**: It is considered the entry point; the user can start using the website through an entry point called main.<br>
+  **Syntax**:
+  ```html
+  <main>
+      // entry point
+  </main>
+
