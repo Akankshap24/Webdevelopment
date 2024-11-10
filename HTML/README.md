@@ -605,4 +605,14 @@ footer {
   <main>
       // entry point
   </main>
+  ```
+### Displaying the content in the center  
+1. Keep all the contents in one container.
+   ```html
+   <body>
+       <div>
+           // your content here
+       </div>
+   </body>
+   ```
 
