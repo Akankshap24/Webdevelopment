@@ -615,4 +615,16 @@ footer {
        </div>
    </body>
    ```
+2. `body` is the container here which would display the contents in the center with the following attributes:
+
+   ```css
+   body {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 100vh;
+   }
+> [!Note] 
+> - justify-content: center (horizontal)  
+> - align-items: center (vertical)  
 
