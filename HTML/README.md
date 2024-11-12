@@ -628,3 +628,15 @@ footer {
 > - justify-content: center (horizontal)  
 > - align-items: center (vertical)  
 
+### dialog  
+- It is a popup created for the page.
+- Syntax:
+  ```html
+  <dialog open="">
+      // content
+  </dialog>
+  ```
+- You can keep any content in a dialog, but it is hidden by default.
+- You can show/hide the dialog using the `open` attribute.
+- You can control the dialog dynamically using JavaScript.
+
