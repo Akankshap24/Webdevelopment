@@ -640,3 +640,14 @@ footer {
 - You can show/hide the dialog using the `open` attribute.
 - You can control the dialog dynamically using JavaScript.
 
+HTML basic entities and semantics for body  
+
+a. **Line break `<br>`**  
+   - Browsers ignore the line breaks given in the editor.
+   - You have to manually add a line break by using the `<br>` element.
+
+   **FAQ: What is the difference between `<br>` and `<br/>`?**
+   - There is no such element called `<br/>` in HTML.
+   - Always use only `<br>`.
+   - `<br/>` is used to indicate that it is a self-ending or void element (in XHTML).
+
