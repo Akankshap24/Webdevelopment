@@ -651,3 +651,8 @@ a. **Line break `<br>`**
    - Always use only `<br>`.
    - `<br/>` is used to indicate that it is a self-ending or void element (in XHTML).
 
+b. **Blank Spaces**  
+   - Browser ignores additional spaces between words and characters.
+   - Browser allows only one character space between words or characters.
+   - To add a manual space, you have to use `&nbsp;` (non-breaking space).
+   - It is a "Raw Text Element".
