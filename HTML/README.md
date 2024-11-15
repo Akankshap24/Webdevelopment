@@ -656,3 +656,8 @@ b. **Blank Spaces**
    - Browser allows only one character space between words or characters.
    - To add a manual space, you have to use `&nbsp;` (non-breaking space).
    - It is a "Raw Text Element".
+
+c. **Pre-formatted Text**  
+   - It is used to present the content exactly as defined in the source code.  
+   - It will preserve the spaces and line breaks as defined in the editor.  
+   - The content must be defined within the `<pre>` element.  
