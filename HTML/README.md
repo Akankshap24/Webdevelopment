@@ -661,3 +661,15 @@ c. **Pre-formatted Text**
    - It is used to present the content exactly as defined in the source code.  
    - It will preserve the spaces and line breaks as defined in the editor.  
    - The content must be defined within the `<pre>` element.  
+
+d. **Code Element**  
+   - `<code>` is an element used to define a code snippet in a web page.  
+   - It helps the browser and SEO understand that the enclosed content is some computer code.  
+
+e. **Variables in HTML Code Presentation**  
+   - You can use the `<var>` element for variables in HTML.  
+   - Variables are designated using `<var>` in code snippets.  
+
+f. **Sample Template for a Code**  
+   - Use the `<samp>` element to present sample output.  
+   - It is used for comments and captions on a page.  
