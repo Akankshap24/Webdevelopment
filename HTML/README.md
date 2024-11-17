@@ -673,3 +673,13 @@ e. **Variables in HTML Code Presentation**
 f. **Sample Template for a Code**  
    - Use the `<samp>` element to present sample output.  
    - It is used for comments and captions on a page.  
+
+### General Syntax  
+```html
+<samp>caption about the program</samp>
+<code>
+    <pre>
+        <!-- Code about the caption -->
+    </pre>
+</code>
+```
