@@ -683,3 +683,18 @@ f. **Sample Template for a Code**
     </pre>
 </code>
 ```
+
+### Small Text and Large Text  
+- `<small>content</small>`: It sets the letter size to small.  
+- `<big>large</big>`: It sets the letter size to large.  
+
+>[!Note]
+In CSS we adjust the font we use "font-style", In HTML we have <font> but its not suggestible.<br>
+
+**Example**:  
+```html
+<body>
+    Normal Text<br>
+    <small>Small Text</small><br>
+    <big>Large Text</big>
+</body>
