@@ -698,3 +698,17 @@ In CSS we adjust the font we use "font-style", In HTML we have <font> but its no
     <small>Small Text</small><br>
     <big>Large Text</big>
 </body>
+```
+### Details and Summary
+- It is used to display the content in detail only when required.  
+- It allows you to expand and collapse your content.  
+- It saves screen space. 
+
+**Syntax**:
+```html
+<details>
+    <summary> Your Title </summary>
+    some text…
+</details>
+```
+- You can specify “open” attribute to show the details.
