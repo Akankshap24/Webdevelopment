@@ -712,3 +712,23 @@ In CSS we adjust the font we use "font-style", In HTML we have <font> but its no
 </details>
 ```
 - You can specify “open” attribute to show the details.
+
+### Data List with Terms and Definitions:  
+- A Data List is defined with `<dl>`.  
+- A Data List is a collection of terms defined with `<dt>` and definitions defined with `<dd>`.  
+
+**Syntax**:  
+```html
+<dl>
+    <dt>Term</dt>
+    <dd>Definition</dd>
+    <dt>Term</dt>
+    <dd>Definition</dd>
+    <dd>Definition</dd>
+</dl>
+```
+
+>[!Note] 
+>1. `<dt>` and `<dd>` have some default alignment, making them easy for presentation.  
+>2. `<dl>` has the capability to display in columns using a grid (`<dt>` -> one column and `<dd>` -> another column).  
+
