@@ -732,3 +732,11 @@ In CSS we adjust the font we use "font-style", In HTML we have <font> but its no
 >1. `<dt>` and `<dd>` have some default alignment, making them easy for presentation.  
 >2. `<dl>` has the capability to display in columns using a grid (`<dt>` -> one column and `<dd>` -> another column).  
 
+>[!Note] 
+>We can make content sticky on a webpage using the CSS property:  
+```css
+dt {
+    position: sticky;
+    top: 0;
+}
+```
