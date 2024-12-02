@@ -744,3 +744,11 @@ dt {
 ### Field Set and Legends  
 - A `<fieldset>` is a container with a frame.  
 - A `<legend>` puts a caption for the field set.  
+
+**Syntax**:  
+```html
+<fieldset>
+    <legend>Title</legend>
+    Your content…
+</fieldset>
+```
