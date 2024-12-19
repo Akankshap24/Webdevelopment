@@ -752,3 +752,10 @@ dt {
     Your content…
 </fieldset>
 ```
+In CSS, we can set a shadow for any container using the `box-shadow` property. 
+
+The `box-shadow` property takes four values:
+
+```css
+box-shadow: horizontal vertical blur color;
+```
