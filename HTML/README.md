@@ -759,3 +759,4 @@ The `box-shadow` property takes four values:
 ```css
 box-shadow: horizontal vertical blur color;
 ```
+The unit of horizontal vertical blur is `pixels`.
