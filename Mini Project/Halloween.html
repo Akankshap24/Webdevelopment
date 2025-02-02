@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween Spooktacular</title>
+    <style>
+        /* Body Styling */
+        body {
+            background-color: black;
+            color: seashell;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        /* Front Page Styling */
+        #frontPage {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: orange;
+            text-shadow: 2px 2px 5px black;
+            margin-top: 20px;
+        }
+
+        /* Button Styling */
+        .toggle-button {
+            background-color: orange;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 8px;
+            cursor: pointer;
+            border: none;
+            transition: transform 0.2s;
+        }
+
+        .toggle-button:hover {
+            transform: scale(1.05);
+            background-color: darkorange;
+        }
+
+        /* History Section Styling */
+        #historySection {
+            display: none;
+            max-width: 600px;
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .section {
+            background-color: darkslategray;
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 8px;
+            color: seashell;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Front Page -->
+    <div id="frontPage">
+        <h1>🎃 Welcome to Halloween Spooktacular 🎃</h1>
+        <p>Click the button below to uncover the eerie history of Halloween!</p>
+        <button class="toggle-button" onclick="toggleContent()">View History</button>
+    </div>
+
+    <!-- History Section -->
+    <div id="historySection">
+        <h2>The History of Halloween</h2>
+        <div class="section">
+            <h3>Origins of Halloween</h3>
+            <p>Halloween originated with the ancient Celtic festival of Samhain. The Celts celebrated this on October 31st to mark the end of the harvest and the beginning of winter, a season they associated with death. They believed that on this night, the boundary between the living and the dead blurred, allowing spirits to roam the earth.</p>
+        </div>
+        <div class="section">
+            <h3>How Halloween Evolved</h3>
+            <p>Over time, Halloween transformed as Christianity spread. The day became known as All Hallows' Eve, preceding All Saints' Day. Immigrants brought Halloween traditions to North America, where it evolved to include activities like trick-or-treating, pumpkin carving, and wearing costumes.</p>
+        </div>
+        <div class="section">
+            <h3>Why We Celebrate Halloween Today</h3>
+            <p>Today, Halloween is a celebration of all things spooky and fun! People enjoy dressing up, trick-or-treating, and decorating their homes with eerie decorations. It’s a time to embrace creativity, indulge in sweet treats, and celebrate the supernatural with friends and family.</p>
+        </div>
+        <button class="toggle-button" onclick="toggleContent()">Go Back</button>
+    </div>
+
+    <script>
+        function toggleContent() {
+            const frontPage = document.getElementById('frontPage');
+            const historySection = document.getElementById('historySection');
+            const isFrontPageVisible = frontPage.style.display !== 'none';
+
+            // Toggle visibility
+            frontPage.style.display = isFrontPageVisible ? 'none' : 'flex';
+            historySection.style.display = isFrontPageVisible ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
