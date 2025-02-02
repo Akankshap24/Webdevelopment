@@ -760,3 +760,11 @@ The `box-shadow` property takes four values:
 box-shadow: horizontal vertical blur color;
 ```
 The unit of horizontal vertical blur is `pixels`.
+
+### Headings in HTML
+
+- Headings need a different appearance in page.  
+- HTML provides pre-defined heading levels.  
+- HTML headings levels are defined by using `<hn>`.  
+- “n” refers to level number from 1 to 6.  
+- They are not mainly meant for 'appearance' but also for 'SEO friendly'.  
