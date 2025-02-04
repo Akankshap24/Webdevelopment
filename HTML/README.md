@@ -768,3 +768,15 @@ The unit of horizontal vertical blur is `pixels`.
 - HTML headings levels are defined by using `<hn>`.  
 - “n” refers to level number from 1 to 6.  
 - They are not mainly meant for 'appearance' but also for 'SEO friendly'.  
+
+# Syntax  
+
+```html
+<h1> </h1>  
+<h2> </h2>  
+……………….  
+<h6> </h6>  
+```  
+
+- Heading levels from 1 to 6 will decrease the size.  
+- Heading can be defined with the “align” attribute, which can align left, center, right, or justify.  
