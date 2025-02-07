@@ -780,3 +780,8 @@ The unit of horizontal vertical blur is `pixels`.
 
 - Heading levels from 1 to 6 will decrease the size.  
 - Heading can be defined with the “align” attribute, which can align left, center, right, or justify.  
+
+## FAQ: Why to use heading element for headings?
+
+- Heading elements will make your topics SEO friendly.  
+- SEO can identify the topics on your page if they are defined in heading.
