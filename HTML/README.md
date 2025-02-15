@@ -785,3 +785,7 @@ The unit of horizontal vertical blur is `pixels`.
 
 - Heading elements will make your topics SEO friendly.  
 - SEO can identify the topics on your page if they are defined in heading.
+
+[!Note] 
+- The effect of headings can be give without `<hn>` tags also, then why we need <hn> tags
+- `<hn>` tags are given to make page SEO friendly which is as shown below
