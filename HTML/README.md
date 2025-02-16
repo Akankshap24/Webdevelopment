@@ -789,3 +789,7 @@ The unit of horizontal vertical blur is `pixels`.
 [!Note] 
 - The effect of headings can be give without `<hn>` tags also, then why we need <hn> tags
 - `<hn>` tags are given to make page SEO friendly which is as shown below
+
+
+2. Can we change the appearence of `<hn>` tags?
+Ans. yes possible using css styling attributes.
