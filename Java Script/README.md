@@ -1,3 +1,4 @@
+# Day 1
 # What is JavaScript ?
 
 JavaScript is a `lightweight`, `interpreted`, and `just-in-time (JIT) compiled` programming language.
@@ -68,7 +69,6 @@ JavaScript is used at **various layers** of development:
 | **Animation**  | Tools like Flash, 3DS Max (older usage)     | Motion graphics, UI effects          |
 
 ---
-![Frontend](https://github.com/user-attachments/assets/459f8eca-d5a1-4f46-b80b-0ba090486cec)
 
 ## ❓ FAQ: What are the Issues with JavaScript?
 
@@ -117,10 +117,46 @@ JavaScript can be misused or blocked by browsers due to security risks.
 | **Trojan**    | ❌ Bad   | A virus installed to secretly control a device without consent — malicious approach.  |
 | **TeamViewer**| ✅ Good  | A legitimate tool installed with user permission to control a device — safe approach. |
 
-🔐 JavaScript is `not inherently secur`e and is often restricted by modern browsers.
+🔐 JavaScript is `not inherently secure` and is often restricted by modern browsers.
 
 
+# Day 2
 
+## 🌐 JavaScript – Client Side
+
+JavaScript plays a vital role on the **client side** by reducing the load on the server and improving the overall performance of web applications.
+
+---
+
+### ✅ Purpose
+
+- To **avoid burden** on the server.
+- To **enhance performance** by handling interactions in the browser.
+
+---
+
+### 🧠 Key Client-Side Interactions
+
+#### 1. 📄 DOM Manipulations
+
+- Add elements to the page
+- Remove elements from the page
+- Update content inside elements
+- Apply dynamic styles to elements
+- Attach events dynamically to elements
+
+#### 2. ✔️ Validations
+
+- Verify and validate **user input** before sending it to the server
+
+#### 3. 💾 Client-Side Management
+
+| Area                  | Description                                                                 |
+|-----------------------|-----------------------------------------------------------------------------|
+| Client Memory         | Store temporary data like username/password in browser cache                |
+| Client Devices        | Example: Ticket booking — print ticket without internet                     |
+| User Location         | Websites request location access to provide location-specific experiences   |
+| Data Sharing          | Share data between apps on the client device                                |
 
 
 
