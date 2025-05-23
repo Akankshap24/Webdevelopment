@@ -68,6 +68,7 @@ JavaScript is used at **various layers** of development:
 | **Animation**  | Tools like Flash, 3DS Max (older usage)     | Motion graphics, UI effects          |
 
 ---
+![Frontend](https://github.com/user-attachments/assets/459f8eca-d5a1-4f46-b80b-0ba090486cec)
 
 
 
