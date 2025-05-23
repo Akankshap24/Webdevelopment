@@ -53,7 +53,7 @@ JavaScript supports `multiple programming paradigms`:
 
 ---
 
-> 🔎 Note:** JavaScript is *not a purely OOP language*, but it supports some OOP concepts like objects, classes, and inheritance (via prototypes).
+> 🔎 **Note:** JavaScript is *not a purely OOP language*, but it supports some OOP concepts like objects, classes, and inheritance (via prototypes).
 ---
 
 ## 🧩 JavaScript Usage in Full-Stack Projects
