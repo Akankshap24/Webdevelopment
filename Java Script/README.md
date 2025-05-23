@@ -69,6 +69,55 @@ JavaScript is used at **various layers** of development:
 
 ---
 
+## ❓ FAQ: What are the Issues with JavaScript?
+
+JavaScript, despite being powerful and widely used, has a few key limitations:
+
+### 1️⃣ Not Strongly Typed
+JavaScript allows a variable to hold different types of data without restriction:
+
+```js
+let a = 10;        // number
+a = "sachin";      // string
+a = false;         // boolean
+a = 13.5;          // number
+```
+🔸JavaScript is `not strongly typed` — no fixed datatype on a variable.
+
+### 2️⃣ Not Strictly Typed
+JavaScript allows you to use undeclared variables unless in strict mode:
+
+```js
+"use strict";
+a = 10;  // ❌ Error: 'a' is not declared
+```
+
+🔸JavaScript is `not strictly typed` — variables can be used without declaring.
+
+### 3️⃣ No Uniform Data Control
+JavaScript doesn't enforce a uniform object structure:
+
+```js
+[
+  { Name: "Samsung", price: 45000 },
+  { Product: "LG", cost: 55000 }
+]
+```
+
+⚠️ Different property names `(Name, Product, price, cost)` make data processing difficult.
+
+### 4️⃣ Security Concerns
+JavaScript can be misused or blocked by browsers due to security risks.
+
+### 🔐 Security Concerns in JavaScript
+
+| Example       | Type     | Description                                                                           |
+|---------------|----------|---------------------------------------------------------------------------------------|
+| **Trojan**    | ❌ Bad   | A virus installed to secretly control a device without consent — malicious approach.  |
+| **TeamViewer**| ✅ Good  | A legitimate tool installed with user permission to control a device — safe approach. |
+
+🔐 JavaScript is `not inherently secur`e and is often restricted by modern browsers.
+
 
 
 
