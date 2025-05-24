@@ -153,10 +153,10 @@ JavaScript plays a vital role on the **client side** by reducing the load on the
 
 | Area                  | Description                                                                 |
 |-----------------------|-----------------------------------------------------------------------------|
-| Client Memory         | Store temporary data like username/password in browser cache                |
-| Client Devices        | Example: Ticket booking — print ticket without internet                     |
-| User Location         | Websites request location access to provide location-specific experiences   |
-| Data Sharing          | Share data between apps on the client device                                |
+| *Client Memory*         | Store temporary data like username/password in browser cache                |
+| *Client Devices*        | Example: Ticket booking — print ticket without internet                     |
+| *User Location*         | Websites request location access to provide location-specific experiences   |
+| *Data Sharing*          | Share data between apps on the client device                                |
 
 
 
