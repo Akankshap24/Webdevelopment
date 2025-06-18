@@ -769,15 +769,70 @@ The unit of horizontal vertical blur is `pixels`.
 - “n” refers to level number from 1 to 6.  
 - They are not mainly meant for 'appearance' but also for 'SEO friendly'.  
 
-### FAQ: Why to use heading element for headings?
+### FAQ: 
+#### 1 Why to use heading element for headings?
 
 - Heading elements will make your topics SEO friendly.  
 - SEO can identify the topics on your page if they are defined in heading.
 
 >[!Note]
->- The effect of headings can be give without > `<hn>` tags also, then why we need <hn> tags
+>- The effect of headings can be give without
+>- `<hn>` tags also, then why we need <hn> tags
 >- `<hn>` tags are given to make page SEO friendly which is as shown below
 
 
-2. Can we change the appearence of `<hn>` tags?
-Ans. yes possible using css styling attributes.
+#### 2. Can we change the appearence of `<hn>` tags?
+**Ans.** yes possible using css styling attributes.
+
+#### 3. Can we remove the default style defined for Heading?
+
+**Ans.** Default styles for headings include:
+
+- `font-weight: bold`
+- `font-size` (varies by level)
+- `display: block`
+
+To remove or control these default styles, we use **CSS inheritance values**.  
+You can use the `unset` value in CSS to remove the browser's default styles.
+
+```css
+h1, h2, h3, h4, h5, h6 {
+  all: unset;
+}
+```
+
+>[!NOTE]
+> - Don’t use headings to highlight any word or sentence within a paragraph.  
+> - Headings, by default, have a line break above and below.  
+> - Avoid using too many headings on a single page — excessive use may negatively affect SEO and can mark your page as spam.
+
+### FAQ
+
+#### Q: Why use heading elements for headings?
+**Ans:** Heading elements (`<h1>` to `<h6>`) provide semantic meaning to the content, improve accessibility, and help with SEO by clearly defining the document structure.
+
+---
+
+#### Q: Why do we have to use heading elements for giving headings? Can't we just configure using HTML text styles and CSS?
+**Ans:** While you *can* visually style text with HTML and CSS, using heading elements ensures semantic structure, which is important for screen readers, search engines, and document hierarchy.
+
+---
+
+#### Q: Can we change the appearance of `<hn>` tags?
+**Ans:** Yes, the appearance of any heading tag (`<h1>` to `<h6>`) can be fully customized using CSS (e.g., changing font-size, color, margin, etc.).
+
+---
+
+#### Q: Can we remove the default style defined for Heading?
+**Ans:** Default styles for headings include:
+- `font-weight: bold`
+- `font-size`
+- `display: block`
+
+To remove these defaults, we use CSS inheritance values like `unset`:
+
+```css
+h1, h2, h3, h4, h5, h6 {
+  all: unset;
+}
+```
