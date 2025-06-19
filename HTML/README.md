@@ -836,3 +836,16 @@ h1, h2, h3, h4, h5, h6 {
   all: unset;
 }
 ```
+## Paragraphs and Blockquotes
+
+- HTML ignores line breaks and paragraph marks by default.
+- You must manually define paragraphs using the `<p>` element.
+- The `<p>` element supports the `align` attribute to set text alignment: `left`, `center`, `right`, or `justify`.
+- Paragraphs automatically include line breaks before and after.
+
+**Syntax:**
+
+```html
+<p>Your Content</p>
+<p align='left/right/center/justify'>Your Content</p>
+```
