@@ -904,3 +904,43 @@ p {
   letter-spacing: 15px;
 }
 ```
+
+#### 3. How to set a DropCap?
+
+**Ans.**  
+To create a **DropCap** (large first letter in a paragraph), follow these steps:
+
+- Use the `::first-letter` pseudo-element to target the first letter.
+- Apply desired font properties like `font-size`, `font-weight`, and `font-family`.
+- Use `float: left` to align it beside the paragraph text.
+
+**Syntax:**
+
+```css
+p::first-letter {
+  font-size: 50px;
+  font-weight: bold;
+  float: left;
+  font-family: "Brush Script MT", cursive;
+  color: blue;
+  padding-right: 2px;
+}
+```
+
+### 4. How to display a paragraph as a continuous paragraph?
+
+**Ans.**  
+While using CSS Grid is possible, it's not ideal for this use case.  
+Instead, we can use the **CSS `columns` attribute** to display a paragraph in a continuous, multi-column format.
+
+**Example Syntax:**
+
+```css
+section {
+  columns: 5;
+  column-gap: 20px;
+  margin-top: 25px;
+  column-rule: 2px dotted black;
+}
+```
+
