@@ -849,3 +849,58 @@ h1, h2, h3, h4, h5, h6 {
 <p>Your Content</p>
 <p align='left/right/center/justify'>Your Content</p>
 ```
+## Working with `<blockquote>` Tag
+
+- `<blockquote>` is similar to a paragraph but includes **left and right indentation** for the text.  
+  *(Indentation refers to the space between the margin and the text.)*
+- It is defined using the `<blockquote>` element.
+- In SEO, `<blockquote>` is treated as a **summary or highlighted content** on a page.
+- It is mainly used for **summary representation** or quoting external sources.
+
+## Working with `<blockquote>` Tag
+
+- `<blockquote>` is similar to a paragraph but includes **left and right indentation** for the text.  
+  *(Indentation refers to the space between the margin and the text.)*
+- It is defined using the `<blockquote>` element.
+- In SEO, `<blockquote>` is treated as a **summary or highlighted content** on a page.
+- It is mainly used for **summary representation** or quoting external sources.
+
+**Example Syntax:**
+
+```html
+<blockquote>
+  This is an example of blockquoted text with indentation.
+</blockquote>
+```
+
+#### FAQ: How to set the first-line indent for a paragraph or blockquote?
+
+**Ans.**  
+You can set the first-line indent using the `text-indent` CSS property.
+
+**Example:**
+
+```css
+blockquote {
+  text-indent: 100px;
+}
+```
+
+#### 2. How to set line space, word space, and character space in a paragraph?
+
+**Ans.**  
+You can control spacing in a paragraph using the following CSS properties:
+
+- `line-height` → sets the **line spacing**
+- `word-spacing` → sets the **space between words**
+- `letter-spacing` → sets the **space between characters**
+
+**Syntax:**
+
+```css
+p {
+  line-height: 10px;
+  word-spacing: 5px;
+  letter-spacing: 15px;
+}
+```
