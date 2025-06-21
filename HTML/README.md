@@ -944,3 +944,17 @@ section {
 }
 ```
 
+## Text Formatting in HTML
+
+- You can change text formatting using the `<font>` tag.
+- With `<font>`, you can modify:
+  - `face` → font family  
+  - `size` → 1 to 7 levels (increasing order)  
+  - `color` → named colors or hex codes
+
+**Syntax:**
+
+```html
+<font face="Arial" size="4" color="blue">Your Text</font>
+```
+
